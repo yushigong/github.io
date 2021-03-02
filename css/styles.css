@@ -1,0 +1,567 @@
+
+/* GLOBAL STYLES */
+* {
+  font-family: 'DM Sans', 'Helvetica', 'Arial', sans-serif;
+  color: #212121;
+  /* font-size: 1rem; */
+  font-weight: 400;
+}
+
+.container-fluid.main-body {
+  padding: 0;
+}
+
+/* INDEX PAGE  */
+h1.bold {
+  font-weight: 700;
+}
+
+.description-main, .about-me-section {
+  max-width: 780px;
+  padding-top: 100px;
+  margin: auto;
+}
+
+.about-me-section {
+  max-width: 600px;
+}
+
+.index-heading {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.index-description {
+  font-size: 1.25em;
+  font-size: 20px;
+  padding: 8px 0;
+}
+
+.index-sub-description {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+
+/* WORK SECTION */
+
+.section-heading {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.project-section-wrapper {
+  max-width: 780px;
+  margin: auto;
+  padding-top: 80px;
+}
+
+/* WORK PROJECT CARD */
+
+  .row.design-row {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+
+  .design-row:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03), 0 6px 20px 0 rgba(0, 0, 0, 0.03); /** TODO */
+    top: -10px;
+  }
+
+
+  .project-image-container {
+    padding: 0;
+
+  }
+
+  .project-information {
+    padding: auto 0;
+  }
+
+
+  .design-date {
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .design-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 4px 0 0;
+  }
+
+  .design-description {
+    font-size: 16px;
+    margin: 8px 0 8px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  .project-information .tag_case_study {
+    background-color: #eee;
+    margin: 0 12px 0 0;
+    color: gray;
+    border-radius: 2px;
+    font-size: 11px;
+    display: inline-block;
+    padding: 4px 8px;
+  }
+  /* #shopify-case-study .tag_case_study {
+    color: #385525;
+    background-color: #CFEDCB;
+  } */
+  .design-read-study-btn {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #2C2C2C;
+    padding: 8px 16px;
+    margin-top: 24px;
+    border-radius: 2px;
+    border: none;
+
+  }
+
+  .design-read-study-btn:hover, .design-read-study-btn:focus, .design-read-study-btn:active {
+    background-color: #dd4242;
+    outline: none;
+  }
+
+
+
+/*  FOOTER */
+.contact-footer {
+  border-top: 1px solid #eee;
+  text-align: center;
+  padding-bottom: 56px;
+  margin-top: 32px;
+}
+
+.footer-header {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 32px 0 0;
+}
+
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 24px 0;
+}
+
+
+/* OTHER PAGES */
+
+.other-pages-main {
+  max-width: 780px;
+  padding-top: 32px;
+  margin: auto;
+}
+.fun-each-section-container {
+  margin-bottom: 88px;
+}
+
+.fun-paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+
+
+/*  -------- */
+a {
+  color: #FF1744;
+}
+
+a.link-underline {
+  text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+  text-decoration: underline;
+  color: #dd4242;
+  outline: none;
+}
+
+
+
+#name-logo {
+  line-height: 50px;
+}
+
+/* nav bar links */
+.nav-bar-nav {
+  padding: 0 100px; /* change for responsive */
+  position: fixed;
+  z-index: 1;
+  background-color: transparent;
+  width: 100%;
+  transition:500ms ease;
+}
+.nav-bar-list {
+  display: inline-block;
+  height: 56px;
+  padding: 0;
+  margin: 0;
+}
+.nav-bar-link {
+  line-height: 56px;
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.nav-left-home {
+  display: inline-block;
+}
+
+.nav-right-home {
+  float: right;
+  display: inline-block;
+}
+
+.nav-bar-link > a {
+  color: black;
+  font-size: 14px;
+}
+
+.nav-bar-link > a:hover,
+.nav-bar-link  > a:focus,
+.nav-bar-link > a:active {
+  color: #FF1744;
+  text-decoration: none;
+}
+
+#nav-bar-link-name {
+  float: left;
+  margin: 0 16px 0 0 ;
+}
+
+
+
+.container-fluid {
+  padding: 0;
+}
+
+.intro-wrapper {
+  padding-top: 100px;
+}
+
+
+
+i {
+  color: #FF5252;
+  padding-right: 16px;
+}
+
+i:hover,
+i:active,
+i:focus {
+  color: #dd4242;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.portfolio-tab-bar {
+  text-align: center;
+  margin: 8px 0 24px 0;
+  color: grey;
+}
+
+#design-tab-bar,
+#art-tab-bar {
+  margin: 56px 0 24px 0;
+}
+
+.portfolio-tab-bar .project-tab-bar-link {
+  color: grey;
+  text-decoration: underline;
+}
+
+a.project-tab-bar-current {
+  color: #FF5252;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.portfolio-tab-bar .project-tab-bar-link:hover,
+ .portfolio-tab-bar .project-tab-bar-link:active,
+ .portfolio-tab-bar .project-tab-bar-link:focus {
+  color: #FF5252;
+  font-weight: bold;
+}
+
+/* lines up titles with rows*/
+.row {
+  margin: 0;
+}
+
+.art-project {
+  padding: 0;
+  border-bottom: 20px solid white;
+  border-right: 20px solid white;
+}
+.project-image-wrapper {
+  background: blue;
+}
+
+
+.project-title {
+  margin: 16px 0 0;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.project-description {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 8px 0 16px;
+  color: black;
+  font-weight: lighter;
+}
+
+/* --------------------------------------------- */
+/* Project Pages */
+
+/* Project Buttons */
+.fa-long-arrow-left {
+  margin: 16px 0 0 56px;
+}
+
+.p-buttons-wrapper {
+  text-align: center;
+}
+
+
+.p-name {
+  font-size: 28px;
+  text-align: center;
+  margin: 8px 0;
+}
+
+.p-heading {
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 24px;
+  opacity: 0.87;
+}
+
+.p-section {
+  padding: 0;
+}
+
+.p-section-heading {
+  font-size: 20px;
+  padding: 24px 0 8px;
+}
+
+.p-section-text {
+  font-size: 16px;
+  line-height: 28px;
+  opacity: 0.87;
+}
+
+.p-section-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 16px auto;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0,0,0,0.56);
+  margin: 16px 0 36px;
+}
+
+
+.portfolio-section {
+  margin: 72px 0;
+}
+
+.portfolio-section-heading {
+  font-size: 32px;
+  margin-bottom: 24px;
+  font-weight: lighter;
+}
+
+.portfolio-section-caps-heading {
+  font-size: 14px;
+  color:  #FF1744;
+  letter-spacing: 2px;
+  margin-top: 56px;
+}
+
+.portfolio-section-sub-heading {
+  font-size: 24px;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+.portfolio-quote {
+  font-size: 28px;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.portfolio-section-paragraph {
+  font-size: 18px;
+  line-height: 28px;
+
+}
+.portfolio-list {
+  font-size: 18px;
+}
+
+.portfolio-list-item {
+  padding: 8px 0;
+  line-height: 28px;
+}
+
+.centered-button {
+  text-align: center;
+}
+
+.code-description {
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 20px;
+  opacity: 0.7;
+}
+
+.about-description {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.bold {
+  font-weight: normal;
+}
+
+.project-footer-img {
+  padding-bottom: 24px;
+}
+
+.project-information-footer {
+  padding-top: 48px;
+}
+
+.design-description-footer {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width : 768px) {
+
+  .portfolio-section {
+    margin: 56px 0;
+  }
+
+}
+
+@media only screen and (max-width : 576px) {
+  .portfolio-section {
+    margin: 36px 0;
+  }
+
+  .portfolio-section-heading {
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: lighter;
+  }
+
+  .portfolio-section-caps-heading {
+    font-size: 12px;
+    color:  #FF1744;
+    letter-spacing: 2px;
+    margin-top: 24px;
+  }
+
+  .portfolio-section-sub-heading {
+    font-size: 20px;
+    margin-bottom: 24px;
+    font-weight: bold;
+  }
+
+  .portfolio-quote {
+    font-size: 16px;
+  }
+  .portfolio-section-paragraph {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .medium-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  /*  about.html*/
+
+  .about-me-section {
+    padding: 0 8px;
+    margin-top: 88px;
+  }
+
+  .portfolio-tab-bar {
+    text-align: center;
+    margin: 8px 0 24px 0;
+    color: grey;
+  }
+
+  .nav-bar-nav {
+    padding: 0 16px;
+  }
+
+  .nav-bar-link {
+    line-height: 56px;
+    display: inline-block;
+    margin: 0 8px;
+    float: none;
+  }
+
+  .footer-text {
+    margin: 8px 0 16px;
+  }
+}
+
+
+.code-project {
+  border: 20px solid white;
+  border-left: none;
+}
+
+.profile-image {
+  max-width: 170px;
+}
+
+.about-me-description {
+  font-size: 16px;
+}
+
+
+.about-me-heading {
+  font-size: 24px;
+  padding: 8px 0;
+}
+
+.bolder {
+  font-weight: normal;
+}
+
+.line {
+  opacity: 0.5;
+}
+
+.nav-bar-nav.scrolled {
+  background-color: white;
+}
