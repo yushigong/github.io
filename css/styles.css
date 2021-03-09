@@ -16,8 +16,14 @@ h1.bold {
   font-weight: 700;
 }
 
-.description-main, .about-me-section {
-  max-width: 780px;
+.description-main {
+  max-width: 880px;
+  padding-top: 40px;
+  margin: auto;
+}
+
+.about-me-section {
+  max-width: 880px;
   padding-top: 100px;
   margin: auto;
 }
@@ -27,24 +33,39 @@ h1.bold {
 }
 
 .index-heading {
-  font-size: 28px;
-  font-weight: 400;
+  font-size: 32px;
+  font-weight: 500;
 }
 
 .index-description {
   font-size: 1.25em;
-  font-size: 20px;
+  font-size: 24px;
   padding: 8px 0;
+  font-weight: 500;
 }
 
 .index-sub-description {
-  font-size: 16px;
+  font-size: 18px;
   padding-bottom: 20px;
+  font-weight: 500;
 }
 
 
 /* WORK SECTION */
 
+.case-header-section-container {
+	max-width: 780px;
+	margin: auto;
+	padding-top: 80px;
+	text-align:center;
+}
+
+.case-study-large-header1 {
+	color:#888787;
+	font-size:20px;
+	line-height:25px;
+}
+	
 .section-heading {
   font-weight: 700;
   font-size: 28px;
@@ -52,7 +73,7 @@ h1.bold {
 }
 
 .project-section-wrapper {
-  max-width: 780px;
+  max-width: 900px;
   margin: auto;
   padding-top: 80px;
 }
@@ -61,10 +82,10 @@ h1.bold {
 
   .row.design-row {
     border: 1px solid #eee;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
-    padding: 16px;
-    margin-bottom: 24px;
+    padding: 26px;
+    margin-bottom: 34px;
     position: relative;
     top: 0;
     transition: top ease 0.5s;
@@ -89,18 +110,18 @@ h1.bold {
   .design-date {
     margin: 0;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 24px;
   }
 
   .design-title {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 700;
     margin: 4px 0 0;
   }
 
   .design-description {
-    font-size: 16px;
+    font-size: 18px;
     margin: 8px 0 8px;
     line-height: 24px;
     font-weight: 400;
@@ -108,10 +129,10 @@ h1.bold {
 
   .project-information .tag_case_study {
     background-color: #eee;
-    margin: 0 12px 0 0;
+    margin: 0 16px 0 0;
     color: gray;
     border-radius: 2px;
-    font-size: 11px;
+    font-size: 13px;
     display: inline-block;
     padding: 4px 8px;
   }
@@ -121,7 +142,7 @@ h1.bold {
   } */
   .design-read-study-btn {
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     background-color: #2C2C2C;
     padding: 8px 16px;
@@ -148,7 +169,7 @@ h1.bold {
 
 .footer-header {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 30px;
   margin: 32px 0 0;
 }
 
@@ -200,7 +221,7 @@ a:hover, a:active, a:focus {
 
 /* nav bar links */
 .nav-bar-nav {
-  padding: 0 100px; /* change for responsive */
+  padding: 0 180px; /* change for responsive */
   position: fixed;
   z-index: 1;
   background-color: transparent;
@@ -209,12 +230,13 @@ a:hover, a:active, a:focus {
 }
 .nav-bar-list {
   display: inline-block;
-  height: 56px;
+  height: 66px;
   padding: 0;
   margin: 0;
 }
+
 .nav-bar-link {
-  line-height: 56px;
+  line-height: 66px;
   display: inline-block;
   margin: 0 16px;
 }
@@ -230,7 +252,8 @@ a:hover, a:active, a:focus {
 
 .nav-bar-link > a {
   color: black;
-  font-size: 14px;
+  font-size: 17px;
+  font-weight:400;
 }
 
 .nav-bar-link > a:hover,
