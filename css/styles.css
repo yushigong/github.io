@@ -113,7 +113,7 @@ h1.bold {
     font-size: 15px;
     line-height: 24px;
   }
-
+  
   .design-title {
     font-size: 28px;
     font-weight: 700;
@@ -121,12 +121,12 @@ h1.bold {
   }
 
   .design-description {
-    font-size: 18px;
+    font-size: 17px;
     margin: 8px 0 8px;
     line-height: 24px;
     font-weight: 400;
   }
-
+  
   .project-information .tag_case_study {
     background-color: #eee;
     margin: 0 16px 0 0;
@@ -564,16 +564,16 @@ a.project-tab-bar-current {
 }
 
 .profile-image {
-  max-width: 170px;
+  max-width: 190px;
 }
 
 .about-me-description {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 
 .about-me-heading {
-  font-size: 24px;
+  font-size: 26px;
   padding: 8px 0;
 }
 
