@@ -1,2 +1,2 @@
 # yushigong.github.io
-![img](https://github.com/yushigong/yushigong.github.io/blob/ba5d157abe3369d9cea56ba9a7b43f8f68b21bd1/img/Robot.gif)
+https://raw.githubsercontent.com/wiki/[yushigong]/[yushigong.github.io]/[img/Robot.gif]
