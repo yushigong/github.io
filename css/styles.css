@@ -243,18 +243,16 @@ a:hover, a:active, a:focus {
 
 .nav-left-home {
   display: inline-block;
-  font-size: 18px;
 }
 
 .nav-right-home {
   float: right;
   display: inline-block;
-  font-size: 18px;
 }
 
 .nav-bar-link > a {
   color: black;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .nav-bar-link > a:hover,
