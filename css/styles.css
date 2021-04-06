@@ -175,7 +175,7 @@ h1.bold {
 
 .footer-description {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
   margin: 24px 0;
 }
 
@@ -221,7 +221,7 @@ a:hover, a:active, a:focus {
 
 /* nav bar links */
 .nav-bar-nav {
-  padding: 0 230px; /* change for responsive */
+  padding: 0 210px; /* change for responsive */
   position: fixed;
   z-index: 1;
   background-color: transparent;
@@ -252,7 +252,7 @@ a:hover, a:active, a:focus {
 
 .nav-bar-link > a {
   color: black;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .nav-bar-link > a:hover,
